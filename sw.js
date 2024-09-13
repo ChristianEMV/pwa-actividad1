@@ -12,7 +12,7 @@ self.addEventListener('fetch', (event)=>{
     if(event.request.url.includes('style.css')){
         const respuesta = new Response(
             `body{
-                color: blue;
+                color: white;
                 background-color: #000;
             }`,
             {
