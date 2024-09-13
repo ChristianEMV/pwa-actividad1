@@ -13,7 +13,7 @@ self.addEventListener('fetch', (event)=>{
         const respuesta = new Response(
             `body{
                 color: white;
-                background-color: #000;
+                background-color: #f3f3f3;
             }`,
             {
                 headers:{
