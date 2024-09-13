@@ -1,6 +1,7 @@
 console.log('SW Hola mundo !!');
 
 self.addEventListener('install',(event)=>{
+    //Aqui se almacenan los archivos en cache
     console.log('SW: Instalado');
 });
 
